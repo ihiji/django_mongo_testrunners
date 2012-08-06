@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
       name='django_mongo_testrunners',
-      version='0.0.1',
+      version='0.0.2',
       author='Stuart Rench',
       author_email='info@ihiji.com',
       maintainer = 'Stuart Rench',

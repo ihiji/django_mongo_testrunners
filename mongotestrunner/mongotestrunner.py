@@ -1,6 +1,7 @@
 from django.test.simple import DjangoTestSuiteRunner
 from django.test import TransactionTestCase
 from django.conf import settings
+from mongoengine.connection import connect, disconnect, get_connection
 
 MONGO_DB = settings.MONGO_DB
 DUMP_DIR = settings.DUMP_DIR
